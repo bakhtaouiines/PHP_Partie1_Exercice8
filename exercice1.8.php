@@ -1,7 +1,7 @@
 <?php
-    $addition = 3 + 4;
-    $multiplication = 5 * 20;
-    $division = 45 / 5;
+    $sum = 3 + 4;
+    $product = 5 * 20;
+    $quotient = 45 / 5;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,6 +13,6 @@
 </head>
 <body>
     <h1>Exercice 8 Partie 1 : Les variables PHP</h1>
-    <p><?= $addition.', '.$multiplication.', '.$division;?></p>
+    <p><?= $sum.', '.$product.', '.$quotient;?></p>
 </body>
 </html>
